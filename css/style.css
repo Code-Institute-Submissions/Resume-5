@@ -14,3 +14,75 @@ html {
 }
 
 /*-------------------------------------------- Nav -------------------------------------*/
+.main-nav {
+    font-size: 130%;
+    background-color: #333;
+}
+
+.main-nav nav ul li {
+    display: grid;
+    margin: 0;
+    place-items: center center;
+}
+
+.main-nav nav ul li a {
+    color: #fff;
+    display: grid;
+    margin: 0;
+    place-items: center center;
+}
+
+.main-nav nav ul .nav-brand {
+    font-size: 200%;
+}
+
+.main-nav nav ul li a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.main-nav nav ul li a:active {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.main-nav nav ul li a:focus {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.collapsed-nav {
+    font-size: 120%;
+    background-color: #333;
+
+}
+
+.collapsed-nav nav h3 a {
+    color: #fff;
+}
+
+.collapsed-nav nav button {
+    color: #fff;
+}
+
+#collapsedNav ul li:hover, #collapsedNav ul li:active, #collapsedNav ul li:focus {
+   text-decoration: underline;
+}
+
+#collapsedNav ul li a {
+    color: #fff;
+}
+
+/*-------------------------------------------- Welcome Section -------------------------------------*/
+.welcome-section {
+    height: 60vh;
+    display: grid;
+    margin: 0;
+    place-items: center center;
+    /* background: url(../images/welcome-section-bg.jpg); */
+}
+
+.welcome-section h1 {
+    font-size: 400%;
+    color: #000;
+}
