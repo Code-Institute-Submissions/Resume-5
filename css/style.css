@@ -13,6 +13,24 @@ html {
     font-family: 'Playfair Display', sans-serif;
 }
 
+/*-------------------------------------------- Text & Headings -------------------------------------*/
+.section-heading {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: underline;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/*-------------------------------------------- Dividers -------------------------------------*/
+.content-divider {
+    width: 25%;
+    margin: 0 auto;
+    border-bottom: 3px dashed #666;
+}
+
 /*-------------------------------------------- Nav -------------------------------------*/
 .main-nav {
     font-size: 130%;
@@ -79,10 +97,15 @@ html {
     display: grid;
     margin: 0;
     place-items: center center;
-    /* background: url(../images/welcome-section-bg.jpg); */
 }
 
 .welcome-section h1 {
     font-size: 400%;
     color: #000;
+}
+
+/*-------------------------------------------- About Section -------------------------------------*/
+.about-section {
+    height: 150vh;
+    padding-top: 100px;
 }
