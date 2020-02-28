@@ -97,15 +97,21 @@ hr {
 
 /*-------------------------------------------- Welcome Section -------------------------------------*/
 .welcome-section {
+    background: url(../images/welcome-section-image.jpg) no-repeat center;
+    background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
     height: 60vh;
     display: grid;
     margin: 0;
     place-items: center center;
+    margin-bottom: 50px;
 }
 
 .welcome-section h1 {
     font-size: 400%;
-    color: #000;
+    color: #fff;
 }
 
 /*-------------------------------------------- About Section -------------------------------------*/
@@ -129,4 +135,16 @@ hr {
 
 .education .section-heading {
     margin-bottom: 50px;
+}
+
+.education-card {
+    margin-left: 50px;
+}
+
+.work-experience .section-heading {
+    margin-bottom: 50px;
+}
+
+.work-card {
+    margin-left: 50px;
 }
