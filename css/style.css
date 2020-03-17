@@ -147,3 +147,14 @@ hr {
 .work-card {
     margin-left: 50px;
 }
+
+.download-button {
+    margin-top: 25px;
+    font-size: 200%;
+    border: 1px solid #000;
+}
+
+.download-button a {
+    color: #000;
+    text-decoration: none;
+}
