@@ -25,12 +25,6 @@ html {
 }
 
 /*-------------------------------------------- Dividers -------------------------------------*/
-.content-divider {
-    width: 25%;
-    margin: 0 auto;
-    border-bottom: 3px solid #666;
-}
-
 hr {
     width: 75% ;
 }
@@ -156,6 +150,112 @@ hr {
 }
 
 .download-button a {
+    color: #000;
+    text-decoration: none;
+}
+
+/*-------------------------------------------- Projects Section -------------------------------------*/
+.projects-section {
+    padding-top: 100px;
+    background-color: #ccc;
+}
+
+.projects-section h4 {
+    margin-top: 25px;
+}
+
+.project-card {
+    padding: 25px;
+    margin: 25px auto;
+    text-align: center;
+    border-bottom: 1px solid #333;
+    width: 90%;
+}
+
+.project-card button {
+    border: 1px solid #000;
+}
+
+.project-card button a {
+    color: #000;
+}
+
+.project-card button a:hover {
+    text-decoration: none;
+}
+
+/*-------------------------------------------- Skills Section -------------------------------------*/
+.skills-section {
+    padding-top: 100px;
+}
+
+.skills-card ul {
+    margin-left: 25px;
+    margin-top: 45px;
+    font-size: 120%;
+    align-self: center;
+}
+
+.skills-card ul li {
+    align-self: center;
+}
+
+.skills-card h4 {
+    margin-top: 15px;
+}
+
+.skill {
+    width: 90%;
+    margin: 15px;
+}
+
+.skill .progress {
+    height: 25px;
+    border-radius: 0%;
+}
+
+.skill .progress .progress-bar {
+    background-color: #333;
+    font-size: 130%;
+    text-align: end;
+    padding-right: 10px;
+    border-radius: 0%;
+}
+
+/*-------------------------------------------- Contact Section -------------------------------------*/
+.contact-section {
+    padding-top: 50px;
+    background-color: #ccc;
+    color: #000;
+    padding-bottom: 50px;
+}
+
+.contact-section nav ul li a {
+    color: #000;
+    font-size: 150%;
+}
+
+.contact-section nav ul li a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.icons {
+    margin: 25px 0;
+    font-size: 150%;
+}
+
+.icons ul {
+    list-style: none;
+    color: #000;
+}
+
+.icons ul a {
+    color: #000;
+    margin: 25px;
+}
+
+.icons a:hover {
     color: #000;
     text-decoration: none;
 }
