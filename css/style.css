@@ -259,3 +259,26 @@ hr {
     color: #000;
     text-decoration: none;
 }
+
+@media (max-width: 767px) {
+    .personal-info {
+        border: none;
+        text-align: center;
+    }
+
+    .work-experience {
+        text-align: center;
+    }
+
+    .work-card {
+        margin: 10px;
+    }
+
+    .education {
+        text-align: center;
+    }
+
+    .education-card {
+        margin: 10px;
+    }
+}
