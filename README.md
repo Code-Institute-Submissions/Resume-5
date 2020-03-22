@@ -1,39 +1,58 @@
-# Your Project's Name
+# My Personal Website
 
-One or two paragraphs providing an overview of your project.
-
-Essentially, this part is your sales pitch.
+The purpose of this website is to provide future employers and clients a working piece to showcase what I am capable of doing and to provide them with all of the necessary information that they require in order to make a decision on either to hire me for a job that I have applied for or for a client to hire me to do a job for them. I have keep it clean and minimalistic as this is the style that I prefer for my personal website.
  
 ## UX
  
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+The purpose of this website is to provide future employers and clients a working piece to showcase what I am capable of doing and to provide them with all of the necessary information that they require in order to make a decision on either to hire me for a job that I have applied for or for a client to hire me to do a job for them. I have keep it clean and minimalistic as this is the style that I prefer for my personal website.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+### User Stories
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+- A potential employer would like to know more able myself and my work and education history, so they can go visit the ‘About Me’ section of my website to find all of the information that they require.
+
+- A potential client would like to hire me for a job, however they would like to see what type of projects I have done before and am currently working on, so they can go to the ‘Projects’ section of my website to see the project that I have done to give them a better understanding of what I do.
+
+- A potential client would like to get in contact with me to discuss details, so they are able to go to the ‘Contact’ section of my website where they will be able to contact me either via email, phone, GitHub or LinkedIn.
+
+### Wireframes
+
+See all images located in the directory named ‘Wireframes’.
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+    • Navigation – I used HTML & bootstrap to create a responsive navbar so that people can easy navigate no matter what device they are on.
+      
+    • Welcome Section – I used this section to welcome anyone who views my website to make it feel more personal.
+      
+    • About Section – Here I provided all of the information about me including a profile picture and a personal summary so that viewers can get to know me better.
+      
+    • Project Section – Here I have created a responsive grid showcasing all of the projects that I have done or contributed towards.
+      
+    • Skills Section – Here I have used bootstrap to create progress bars in which I use to represent my comfort level with the associated languages that I use on a day by day basis.
+    • Contact Section – Here I have used fontawesome to represent ways in which viewers of my website can get in contact with me.
  
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
 ### Features Left to Implement
-- Another feature idea
+
+In the future as my skills increase I would like to include a gallery section of all of the pictures I have taken myself so that others my see. I would either have this as a carousel or as a grid system where they can click on each to enlarge the images.
+
+As I add more projects I would also like to implement the option for the viewers to either view the projects either in a grid or in a carousel and they can cycle through all of the projects that I have done.
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+- [HTML](https://html.com/)
+    - I used **HTML** for the structure of the website as it is the best and easiest language to do so.
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+- [CSS](https://www.w3schools.com/css/css_intro.asp)
+    - I used **CSS** to style the website as it is the convention when dealing with a website that does not have many features.
+
+- [Bootstrap](https://getbootstrap.com)
+    - I used **Bootstrap** for the responsiveness of the website as many websites use family libraries to help with the styling and responsiveness of websites.
+
+- [FontAwesome](https://fontawesome.com)
+    - I used **FontAwesome** for all of my icons in my website.
+
+- [GoogleFonts](https://fonts.google.com)
+    - I used **Google Fonts** to pick the fonts for my website. The fonts that I have chosen are Raleway and Playfair Display.
 
 
 ## Testing
@@ -74,7 +93,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
 ### Media
-- The photos used in this site were obtained from ...
+- The photos used in this site were all sourced from myself.
 
 ### Acknowledgements
 

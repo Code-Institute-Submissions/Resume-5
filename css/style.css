@@ -170,6 +170,7 @@ hr {
     text-align: center;
     border-bottom: 1px solid #333;
     width: 90%;
+    height: 250px;
 }
 
 .project-card button {
@@ -262,8 +263,12 @@ hr {
 
 @media (max-width: 767px) {
     .personal-info {
+        padding: 0;
         border: none;
         text-align: center;
+    }
+    .personal-details, .biography {
+        margin: 10px;
     }
 
     .work-experience {
@@ -280,5 +285,13 @@ hr {
 
     .education-card {
         margin: 10px;
+    }
+
+    .download-cv h2 {
+        margin: 10px;
+    }
+
+    .projects-section h4 {
+        margin: 25px 10px 10px 10px;
     }
 }
