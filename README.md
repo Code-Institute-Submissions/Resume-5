@@ -29,6 +29,7 @@ See all images located in the directory named ‘Wireframes’.
     • Project Section – Here I have created a responsive grid showcasing all of the projects that I have done or contributed towards.
       
     • Skills Section – Here I have used bootstrap to create progress bars in which I use to represent my comfort level with the associated languages that I use on a day by day basis.
+    
     • Contact Section – Here I have used fontawesome to represent ways in which viewers of my website can get in contact with me.
  
 ### Features Left to Implement
