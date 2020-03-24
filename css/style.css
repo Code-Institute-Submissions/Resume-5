@@ -113,6 +113,11 @@ hr {
     padding-top: 100px;
 }
 
+.profile-picture img {
+    margin: 5px;
+    max-height: 500px;
+}
+
 .personal-info {
     margin-top: 50px;
     border-left: 1px solid grey;
