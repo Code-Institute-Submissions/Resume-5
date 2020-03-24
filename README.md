@@ -20,17 +20,17 @@ See all images located in the directory named ‘Wireframes’.
 
 ## Features
 
-    • Navigation – I used HTML & bootstrap to create a responsive navbar so that people can easy navigate no matter what device they are on.
+    - Navigation – I used HTML & bootstrap to create a responsive navbar so that people can easy navigate no matter what device they are on.
       
-    • Welcome Section – I used this section to welcome anyone who views my website to make it feel more personal.
+    - Welcome Section – I used this section to welcome anyone who views my website to make it feel more personal.
       
-    • About Section – Here I provided all of the information about me including a profile picture and a personal summary so that viewers can get to know me better.
+    - About Section – Here I provided all of the information about me including a profile picture and a personal summary so that viewers can get to know me better.
       
-    • Project Section – Here I have created a responsive grid showcasing all of the projects that I have done or contributed towards.
+    - Project Section – Here I have created a responsive grid showcasing all of the projects that I have done or contributed towards.
       
-    • Skills Section – Here I have used bootstrap to create progress bars in which I use to represent my comfort level with the associated languages that I use on a day by day basis.
-    
-    • Contact Section – Here I have used fontawesome to represent ways in which viewers of my website can get in contact with me.
+    - Skills Section – Here I have used bootstrap to create progress bars in which I use to represent my comfort level with the associated languages that I use on a day by day basis.
+
+    - Contact Section – Here I have used fontawesome to represent ways in which viewers of my website can get in contact with me.
  
 ### Features Left to Implement
 
@@ -44,7 +44,7 @@ As I add more projects I would also like to implement the option for the viewers
     - I used **HTML** for the structure of the website as it is the best and easiest language to do so.
 
 - [CSS](https://www.w3schools.com/css/css_intro.asp)
-    - I used **CSS** to style the website as it is the convention when dealing with a website that does not have many features.
+    - I used **CSS** to style the Bootstrap skeleton template.
 
 - [Bootstrap](https://getbootstrap.com)
     - I used **Bootstrap** for the responsiveness of the website as many websites use family libraries to help with the styling and responsiveness of websites.
@@ -58,44 +58,31 @@ As I add more projects I would also like to implement the option for the viewers
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+The first thing that I tested on my website was to checked to see if my download button for my CV was working correctly. I then went to the ‘About Me’ section and scrolled down to where I could download the CV. I then clicked the button and it opened the PDF file in a new tab and from there I could view it and download it.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+When I was testing the responsiveness of my website on mobile views I did noticed that the bottom border for the projects card and the button for viewing the project would collide with each other between the medium and small media breakpoints. I will address this issue my restyling the project card so that it does not collide with each other in a future update.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+Finally when I was testing the responsiveness of my website, the background image that I have chosen for the welcome section does not scale nicely when I went onto smaller screens. This is something that I will be able to address for a future update.
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+These are the steps that I had to take when deploying my website onto GitHub Pages:
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+- I first had to create a repository following this naming convention: username.github.io
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
+- Once that was done, I then had to clone the repository onto my computer.
 
+- I then had to copy all of the necessary files for the website to function.
+
+- Once that was done, I had to add all of the files to staged changed. From there I then committed the changed with a message of “Initial Commit”.
+
+- I then went and pushed the changes to origin master and once it was uploaded I went onto roymagnussen.github.io and saw that my website was live for everyone to see.
 
 ## Credits
-
-### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
 ### Media
 - The photos used in this site were all sourced from myself.
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from https://www.devonstank.com/ and http://www.garysheng.com/
